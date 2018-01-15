@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<aspectj>
+  <aspects>
+    <aspect name="com.github.rmannibucau.sample.SomeAspect" />
+  </aspects>
+  <weaver options="verbose">
+    <include within="com.github.rmannibucau.sample.*"/>
+  </weaver>
+</aspectj>
